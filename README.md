@@ -95,7 +95,3 @@ Se desideri scaricare la guida sul tuo pc puoi procedere con il comando:
 ```bash
      git clone https://github.com/francesco-urso/progetto-finale.git /percorso/della/directory
 ```
-
-# Differenza tra i vari tipi di merge in Git
-
-In Git, ci sono diversi metodi per integrare le modifiche da un ramo all'altro. I principali metodi di merge sono `merge`, `squash merge`, e `rebase`. Ognuno di questi ha caratteristiche specifiche e si adatta a diverse situazioni.
