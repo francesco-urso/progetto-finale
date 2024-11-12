@@ -18,31 +18,52 @@ Questo progetto è una guida all'uso di **Git** e **GitHub** per la gestione del
 1. **Su Windows**:
    - Scarica il pacchetto di installazione di Git da [git-scm.com](https://git-scm.com/downloads/win).
    - Avvia l'installazione e segui le istruzioni guidate per completare l’installazione.
-   
+
 2. **Su macOS**:
    - Puoi installare Git usando Homebrew con il comando:
-     ```bash
+
+    ```bash
      brew install git
      ```
+
    - In alternativa, Git è disponibile anche tramite Xcode Command Line Tools.
 
 3. **Su Linux**:
    - Su distribuzioni basate su Debian (come Ubuntu), usa:
+
      ```bash
      sudo apt update
      sudo apt install git
      ```
+
    - Su distribuzioni basate su Red Hat (come Fedora), usa:
+
      ```bash
      sudo dnf install git
      ```
 
 4. **Configurazione Iniziale di Git**:
    - Dopo l'installazione, configura il tuo nome utente e la tua email:
+
      ```bash
      git config --global user.name "Tuo Nome"
      git config --global user.email "tuo@example.com"
      ```
+
    - Questi dettagli saranno inclusi nei commit che creerai.
 
 Una volta completata l'installazione, sarai pronto per iniziare ad utilizzare Git ed inizializzare il progetto [GIT.md](./GIT.md) e GitHub per creare la tua prima repo [GITHUB.md](./GITHUB.md)
+
+Se desideri scaricare la guida sul tuo pc puoi procedere con il comando:
+
+- Per clonarlo nella cartela dove ti trovi:
+
+```bash
+     git clone https://github.com/francesco-urso/progetto-finale.git
+```
+
+- Per clonarlo in una directory specifica:
+
+```bash
+     git clone https://github.com/francesco-urso/progetto-finale.git /percorso/della/directory
+```
